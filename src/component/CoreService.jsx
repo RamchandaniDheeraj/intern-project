@@ -17,6 +17,7 @@ function CoreService() {
     return (
         <>
             <main className='w-full'>
+                {/* first page */}
                 <div className='w-[1200px] m-auto flex mb-28' >
                     <div className='w-[42%]'>
                         <img src={Rectangle} alt="" className='w-[455px] h-[510px] my-12' />
@@ -58,7 +59,7 @@ function CoreService() {
                                 </p>
                             </div>
                         </div>
-                    </div> 
+                    </div>
                 </div>
 
 
@@ -189,7 +190,7 @@ function CoreService() {
                         </div>
                     </div>
                 </section>
-                
+
             </main>
         </>
     )
