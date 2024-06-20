@@ -18,42 +18,42 @@ function CoreService() {
         <>
             <main className='w-full'>
                 {/* first page */}
-                <div className='w-[1200px] m-auto flex mb-28' >
-                    <div className='w-[42%]'>
-                        <img src={Rectangle} alt="" className='w-[455px] h-[510px] my-12' />
+                <div className='w-full m-auto md:flex mb-28 ' >
+                    <div className='md:w-[50%] w-full'>
+                        <img src={Rectangle} alt="" className='md:w-[90%] md:my-12 w-[100%] p-1 lg:h-[500px] md:h-[80%] bg-[size-100%_100%]' />
                     </div>
-                    <div className='w-[58%]'>
+                    <div className='md:w-[50%] w-[95%] + mx-auto'>
                         <h1 className='text-4xl font-semibold mb-6'>Our Core Services</h1>
-                        <p className='font-medium'>Our technology solutions are perfectly designed to ensure the virtual <br />
+                        <p className='font-medium '>Our technology solutions are perfectly designed to ensure the virtual <br />
                             world meets your needs.</p>
 
                         <div className='flex mt-7'>
                             <div className='w-[12%]'><img src={WebDevelop} alt="" /></div>
-                            <div className='w-[88%]'><h2 className='font-semibold'>Web Development</h2>
+                            <div className='w-[88%] px-1'><h2 className='font-semibold'>Web Development</h2>
                                 <p className='mt-3'>We convert any design file: PSD, Sketch, Figma, Adobe XD to pixel-perfect,<br />
                                     <span className='leading-10 '>semantic, and standard-compliant HTML/CSS templates. </span>
                                 </p></div>
                         </div>
                         <div className='flex mt-5'>
                             <div className='w-[12%]'><img src={MobileApplication} alt="" /></div>
-                            <div className='w-[88%]'><h2 className='font-semibold'>Mobile Applications</h2>
-                                <p className='mt-3'>We do highly customizable, easy-to-manage, and extendable WordPress solutions.
+                            <div className='w-[88%] px-1'><h2 className='font-semibold  '>Mobile Applications</h2>
+                                <p className='mt-3 '>We do highly customizable, easy-to-manage, and extendable WordPress solutions.
                                     <br />
                                     <span className=' leading-10'>Plugins, themes, or an eCommerce. We can do it.</span>
                                 </p></div>
                         </div>
                         <div className='flex mt-5'>
                             <div className='w-[12%]'><img src={Shopify} alt="" /></div>
-                            <div className='w-[88%]'><h2 className='font-semibold'>Shopify & Woo Commerce Development</h2>
-                                <p className='mt-3'>We know the ins and outs of Shopify & WooCommerce and we can help you get your
+                            <div className='w-[88%] px-1'><h2 className='font-semibold  '>Shopify & Woo Commerce Development</h2>
+                                <p className='mt-3 '>We know the ins and outs of Shopify & WooCommerce and we can help you get your
                                     <br />
                                     <span className='leading-10'>eCommerce site running in a matter of weeks.</span>
                                 </p></div>
                         </div>
                         <div className='flex mt-5'>
                             <div className='w-[12%]'><img src={Vue} alt="" /></div>
-                            <div className='w-[88%]'><h2 className='font-semibold'>Vue - React Development & Email Template Coding</h2>
-                                <p className='mt-3'>Performance, Scalability, Reusable Components, One Way Data Flow - the perfect <br />
+                            <div className='w-[88%] px-1'><h2 className='font-semibold  '>Vue - React Development & Email Template Coding</h2>
+                                <p className='mt-3 '>Performance, Scalability, Reusable Components, One Way Data Flow - the perfect <br />
                                     <span className=' leading-10'>ingredients for building websites or web apps; also high class coding for <br /></span>
                                     <span className='leading-6'>email marketing</span>
                                 </p>
@@ -64,28 +64,30 @@ function CoreService() {
 
 
                 {/*  Partnership for agencies  */}
-                <section className='w-full flex bg-[rgb(235,250,244)] h-[580px] mb-12'>
-                    <div className='w-1/2'><img src={Partnership} alt="" className='w-[680px] h-[480px] m-auto shadow-[-72px_0px_0px_42px_#000] mt-10' /></div>
-                    <div className=" w-1/2  bg-cover bg-center bg-[url(src/assets/image/Vector.png)]" >
+                <section className='w-full md:flex  block  mb-12'>
+                    <div className='md:w-[50%] w-full bg-[rgb(235,250,244)] '>
+                        <img src={Partnership} alt="" className='md:w-[680px] h-[480px] w-full m-auto shadow-[-72px_0px_0px_42px_#000] mt-10 '  />
+                    </div>
+                    <div className="md:w-[50%] w-full px-4 bg-[size:100%_100%] bg-center bg-[url(src/assets/image/Vector.png)] bg-[rgb(235,250,244)] " >
                         <h1 className=' text-4xl mt-24 tracking-wider font-bold'>Partnership for agencies</h1><br /><br />
                         <p className='font-medium leading-4'>A reliable coding partner that delivers solutions to your business challenges and <br /><br />
                             <span className='leading-10 '>stays by your side in the long term. Having the whole spectrum of web <br /></span>
                             <span className='leading-10 '>development expertise, we are here to take care of your projects while <br /></span>
                             <span className='leading-10 '> making it possible for you to focus on growing your own business.  <br /></span>
                         </p>
-                        <button className='w-52 h-14 bg-[#00D285] text-white rounded-[100px] mt-16 '>Partnership Details</button>
+                        <button className='w-52 h-14 bg-[#00D285] text-white rounded-[100px] my-12'>Partnership Details</button>
                     </div>
                 </section>
 
 
                 {/*  Our Promise  */}
-                <section className='m-6 pb-14 '>
+                <section className='m-6 md:py-14 py-6'>
                     <h1 className='font-bold text-4xl text-center'>Our Promise</h1>
-                    <p className='font-medium text-center leading-10'>As part of our high quality service, we'd like to offer something extra too.</p>
+                    <p className='font-medium text-center leading-10'>As part of our high quality service, we' like to offer something extra too.</p>
 
-                    <div className='flex flex-wrap'>
-
-                        <div className=' w-[360px] h-[300px] my-7 mx-14 flex'>
+                    <div className='flex flex-wrap mt-4'>
+                    
+                        <div className='lg:w-[357px] md:w-[260px] w-full h-[250px] md:mx-10 mx-0 flex mb-7 '>
                             <div className='mt-4'>
                                 <img src={Topcode} alt="" />
                             </div>
@@ -100,7 +102,7 @@ function CoreService() {
                             </div>
                         </div>
 
-                        <div className=' w-[360px] h-[300px] my-7 mx-14 flex'>
+                        <div className='lg:w-[357px] md:w-[260px] w-full h-[250px]  md:mx-14 mx-0 flex mb-7'>
                             <div className='mt-4'>
                                 <img src={Responsive} alt="" />
                             </div>
@@ -115,7 +117,7 @@ function CoreService() {
                             </div>
                         </div>
 
-                        <div className=' w-[360px] h-[300px] my-7 mx-14 flex'>
+                        <div className='lg:w-[357px] md:w-[260px]  md:mx-14 mx-0  flex mb-7'>
                             <div className='mt-4'>
                                 <img src={Rockstar} alt="" />
                             </div>
@@ -130,7 +132,7 @@ function CoreService() {
                             </div>
                         </div>
 
-                        <div className=' w-[360px] h-[300px]  mx-14 flex'>
+                        <div className='lg:w-[357px] md:w-[260px] md:mx-10 mx-0 flex mb-7'>
                             <div className='mt-4'>
                                 <img src={Turn} alt="" />
                             </div>
@@ -145,7 +147,7 @@ function CoreService() {
                             </div>
                         </div>
 
-                        <div className=' w-[360px] h-[300px] mx-[67px] flex'>
+                        <div className='lg:w-[357px] md:w-[260px] md:mx-10 mx-0 flex mb-7'>
                             <div className='mt-4'>
                                 <img src={Support} alt="" />
                             </div>
@@ -160,7 +162,7 @@ function CoreService() {
                             </div>
                         </div>
 
-                        <div className=' w-[360px] h-[300px] mx-14 flex'>
+                        <div className='lg:w-[357px] md:w-[260px] md:mx-14 mx-0  flex mb-7'>
                             <div className='mt-4'>
                                 <img src={Secured} alt="" />
                             </div>
@@ -180,17 +182,17 @@ function CoreService() {
 
                 {/*   footer part   */}
                 <section>
-                    <div className="w-full flex bg-[#EBFAF4] h-[286px]  ">
-                        <div className='w-8/12 text-center my-auto'>
-                            <h2 className='text-4xl font-medium'>Do you have a next level-idea?</h2>
+                    <div className="w-full md:flex bg-[#EBFAF4] py-24  ">
+                        <div className='md:w-[65%] w-full text-center my-auto '>
+                            <h2 className='text-4xl font-medium '>Do you have a next level-idea?</h2>
                             <p className='text-lg mt-1 text-[#9d9b9b]'>Reach out and we can create magic together</p>
                         </div>
-                        <div className='w-4/12 my-auto text-center'>
-                            <button className='rounded-[100px] w-[200px] h-[55px] bg-[#00D285] text-white shadow-lg shadow-black'>WORK WITH US</button>
+                        <div className='md:w-[35%] w-full my-auto text-center pt-6 md:pt-0'>
+                            <button className=' rounded-[100px] w-[200px] h-[55px] bg-[#00D285] text-white shadow-lg shadow-black '>WORK WITH US</button>
                         </div>
+                        
                     </div>
                 </section>
-
             </main>
         </>
     )
