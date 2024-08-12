@@ -3,6 +3,7 @@ import Petrong from '../../src/assets/image/BookACall.png'
 import Date from '../../src/assets/image/Date.png'
 import Time from '../../src/assets/image/Time Zone.png'
 import { GrChat } from "react-icons/gr";
+import { Link } from 'react-router-dom';
 function BookACall() {
     return (
         <>
@@ -17,7 +18,9 @@ function BookACall() {
 
                 <div className='w-full md:w-[65%] lg:w-[65%]'>
                     <div className='w-[80px] h-[80px] rounded-full rounded-tr-lg bg-[#00D285] relative mt-10 lg:ml-[85%] ml-[70%]'>
-                        <GrChat className='mx-auto text-white text-xl absolute top-8 left-7' />
+                    <Link to={"chat"}>
+                    <GrChat className='mx-auto text-white text-xl absolute top-8 left-7' />
+                    </Link>
                     </div>
                     <form className='md:w-[90%] lg:w-[65%] xl:w-[50%]  mx-auto pb-12 px-4 md:px-0'>
                       

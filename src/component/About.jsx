@@ -1,5 +1,6 @@
 import React from 'react'
 import First from '../../src/assets/image/about1.png'
+import About2 from './About2'
 function About() {
     return (
         <>
@@ -35,6 +36,9 @@ function About() {
                     </div>
                 </div>
             </section>
+
+      <About2/>
+
         </>
 
     )
