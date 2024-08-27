@@ -5,6 +5,7 @@ import MobileApplication from '../../src/assets/image/mobileApplication.png';
 import Shopify from '../../src/assets/image/shopify.png';
 import Vue from '../../src/assets/image/vue.png';
 import Partnership from '../../src/assets/image/partnership.jpg';
+import { Link } from 'react-router-dom';
 // import Vector from '../../src/assets/image/Vector.png'
 
 
@@ -70,7 +71,9 @@ function CoreService() {
                             <span className='leading-10 '>development expertise, we are here to take care of your projects while <br /></span>
                             <span className='leading-10 '> making it possible for you to focus on growing your own business.  <br /></span>
                         </p>
+                        <Link to={"partnershipDetails"}>
                         <button className='w-52 h-14 bg-[#00D285] text-white rounded-[100px] my-12'>Partnership Details</button>
+                        </Link>
                     </div>
                 </section>
 

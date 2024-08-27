@@ -2,6 +2,8 @@ import React from 'react'
 import Img from '../assets/image/home.png'
 import CoreService from './CoreService'
 import OurPromis from './OurPromis'
+import Home2 from './Home2'
+import { Link } from 'react-router-dom'
 // import Petrong from './Petrong'
 function Home() {
     return (
@@ -19,18 +21,21 @@ function Home() {
                             have focused our attention on these core areas:</h5>
 
                         <button className=' w-[200px] h-[55px] bg-[#00D285] ml-10 mt-8 md:ml-20 rounded-[100px] '>Get the qute</button>
-                        <button className=' w-[200px] h-[55px] bg-white ml-10 xl:ml-20 md:ml-20 lg:ml-7 mt-8 text-black rounded-[100px] font-semibold '>schedule a call </button>
+                        <Link to={"BookACall"}>
+                            <button className=' w-[200px] h-[55px] bg-white ml-10 xl:ml-20 md:ml-20 lg:ml-7 mt-8 text-black rounded-[100px] font-semibold '>schedule a call </button>
+                        </Link>
                     </div>
-                    <div className='md:w-[30%] xl:w-[20%] pt-1 md:pt-16 w-full h-[380px] reletive ' >
+                    <div className='md:w-[30%] xl:w-[20%] pt-1 md:pt-16 w-full h-[380px] reletive  ' >
                         <img src={Img} alt="" className='w-full md:px-0 lg:w-[34%] md:w-[40%] h-[490px] absolute md:right-4 lg:right-16 md:shadow-[-70px_120px_0px_-50px_#00D285] lg:shadow-[-100px_120px_0px_-50px_#00D285]' />
                         <div className='w-[100%] h-[490px] bg-[#00D285] absolute top-[0px] z-[-1] right-0 '></div>
                     </div>
                 </div>
 
             </section>
-            <CoreService/>
+            <CoreService />
             {/* <Petrong/> */}
-            <OurPromis/>
+            <Home2 />
+            <OurPromis />
         </>
     )
 }

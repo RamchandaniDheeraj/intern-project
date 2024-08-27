@@ -6,6 +6,7 @@ import Img4 from '../../src/assets/image/blog_img4.png';
 import { IoSearchOutline } from 'react-icons/io5';
 import { AiOutlineMenu } from 'react-icons/ai';
 // import { Link } from 'react-router-dom';
+import ReadMoreBtn from './ReadMoreBtn';
 
 function Blog() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -49,9 +50,6 @@ function Blog() {
                 <IoSearchOutline size={32} className='mx-auto my-[5px]' />
               </div>
             </div>
-
-            
-
            
           </div>
 
@@ -71,7 +69,7 @@ function Blog() {
               <p className='pt-3'>Design it an important and visual illustration
                 that revolve in our daly lives, we dont run
                 from it we utilise and make use of it.</p>
-              <button className='bg-[#00D285] text-white w-[90px] h-[20px] text-[14px] mt-4 ml-[32%] md:ml-0 rounded-[3px] '>Read More</button>
+             <ReadMoreBtn/>
             </div>
           </div>
           <div className='md:w-[27.5%] md:mx-6 mt-8 md:mt-0 '>
@@ -82,8 +80,8 @@ function Blog() {
               <p className='pt-3'>Design it an important and visual illustration
                 that revolve in our daly lives, we dont run
                 from it we utilise and make use of it.</p>
-              <button className='bg-[#00D285] text-white w-[90px] h-[20px] text-[14px] mt-4 rounded-[3px]  ml-[32%] md:ml-0'>Read More</button>
-            </div>
+                <ReadMoreBtn/>
+               </div>
           </div>
 
           <div className=' lg:w-[27.5%] md:w-[35%] md:mx-4 lg-mx-12 '>
@@ -99,14 +97,14 @@ function Blog() {
               <p className='pt-3'>Design it an important and visual illustration
                 that revolve in our daly lives, we dont run
                 from it we utilise and make use of it.</p>
-              <button className='bg-[#00D285] text-white w-[90px] h-[20px] text-[14px] mt-4 rounded-[3px] ml-[32%] md:ml-0'>Read More</button>
+                <ReadMoreBtn/>
               <br /> <br />
               <h2 className='text-[#00D285] font-semibold pt-4'>How To Design The Perfect Hero Image:
                 Guide, Practical Tips and Examples</h2>
               <p className='pt-3'>Design it an important and visual illustration
                 that revolve in our daly lives, we dont run
                 from it we utilise and make use of it.</p>
-              <button className='bg-[#00D285] text-white w-[90px] h-[20px] text-[14px] mt-4 rounded-[3px] ml-[32%] md:ml-0'>Read More</button>
+                <ReadMoreBtn/>
             </div>
           </div>
 
@@ -132,7 +130,7 @@ function Blog() {
               <p className='pt-3'>Design it an important and visual illustration
                 that revolve in our daly lives, we dont run
                 from it we utilise and make use of it.</p>
-              <button className='bg-[#00D285] w-[90px] h-[20px] text-[14px] mt-4 rounded-[3px] ml-[32%] md:ml-0'>Read More</button>
+               <ReadMoreBtn/>
             </div>
           </div>
 
@@ -144,7 +142,7 @@ function Blog() {
               <p className='pt-3'>Design it an important and visual illustration
                 that revolve in our daly lives, we dont run
                 from it we utilise and make use of it.</p>
-              <button className='bg-[#00D285]  w-[90px] h-[20px] text-[14px] mt-4 rounded-[3px] ml-[32%] md:ml-0'>Read More</button>
+               <ReadMoreBtn/>
             </div>
           </div>
 
@@ -156,7 +154,7 @@ function Blog() {
               <p className='pt-3'>Design it an important and visual illustration
                 that revolve in our daly lives, we dont run
                 from it we utilise and make use of it.</p>
-              <button className='bg-[#00D285]  w-[90px] h-[20px] text-[14px] mt-4 rounded-[3px] ml-[32%] md:ml-0'>Read More</button>
+               <ReadMoreBtn/>
             </div>
           </div>
 
@@ -184,7 +182,7 @@ function Blog() {
                 <p className='pt-3 text-black'>Design it an important and visual illustration
                   that revolve in our daly lives, we dont run
                   from it we utilise and make use of it.</p>
-                <button className='bg-[#00D285] w-[90px] h-[20px] text-[14px] mt-4 rounded-[3px] ml-[32%] md:ml-0 '>Read More</button>
+                 <ReadMoreBtn/>
               </div>
             </div>
 
@@ -195,7 +193,7 @@ function Blog() {
                 <p className='pt-3 text-black'>Design it an important and visual illustration
                   that revolve in our daly lives, we dont run
                   from it we utilise and make use of it.</p>
-                <button className='bg-[#00D285] w-[90px] h-[20px] text-[14px] mt-4 rounded-[3px] ml-[32%] md:ml-0 '>Read More</button>
+                 <ReadMoreBtn/>
               </div>
             </div>
 
@@ -206,7 +204,7 @@ function Blog() {
                 <p className='pt-3 text-black '>Design it an important and visual illustration
                   that revolve in our daly lives, we dont run
                   from it we utilise and make use of it.</p>
-                <button className='bg-[#00D285] w-[90px] h-[20px] text-[14px] mt-4 rounded-[3px] ml-[32%] md:ml-0 '>Read More</button>
+                 <ReadMoreBtn/>
               </div>
             </div>
           </div>
@@ -219,7 +217,7 @@ function Blog() {
                 <p className='pt-3 text-black'>Design it an important and visual illustration
                   that revolve in our daly lives, we dont run
                   from it we utilise and make use of it.</p>
-                <button className='bg-[#00D285] w-[90px] h-[20px] text-[14px] mt-4 rounded-[3px] ml-[32%] md:ml-0 '>Read More</button>
+                 <ReadMoreBtn/>
               </div>
             </div>
           </div>

@@ -1,12 +1,13 @@
 import React from 'react'
 import First from '../../src/assets/image/about1.png'
-import { MdMessage } from "react-icons/md";
-import Portfolio1 from '../assets/image/Portfolio1.png'
-import Portfolio2 from '../assets/image/Portfolio2.png'
-import Portfolio3 from '../assets/image/Portfolio3.png'
-import Portfolio4 from '../assets/image/Portfolio4.png'
-import Portfolio5 from '../assets/image/Portfolio5.png'
-import Portfolio6 from '../assets/image/Portfolio6.png'
+import PortfolioImg1 from '../assets/image/Portfolio1.png'
+import PortfolioImg2 from '../assets/image/Portfolio2.png'
+import PortfolioImg3 from '../assets/image/Portfolio3.png'
+import PortfolioImg4 from '../assets/image/Portfolio4.png'
+import PortfolioImg5 from '../assets/image/Portfolio5.png'
+import PortfolioImg6 from '../assets/image/Portfolio6.png'
+import { GrChat } from 'react-icons/gr';
+import Portfolio2 from './Portfolio2'
 function Portfolio() {
     return (
         <>
@@ -32,29 +33,31 @@ function Portfolio() {
             {/*  */}
             {/*  */}
 
-            <section className='w-full h-[3000px] bg-black '>
-                <div className='text-white w-[90%] mx-auto'>
-                    <div className=' flex'>
-                        <h1 className='text-white   font-bold text-[30px]'>Mobile & Web Applications</h1>
-                        <div className='w-[70px] h-[70px] rounded-full rounded-tr-lg bg-[#00D285] ml-[650px] font-3xl'>
-                            <MdMessage className='mx-auto text-white my-[40%] ' />
+            <section className='w-full  bg-black px-4 md:px-16 xl:px-36 py-14'>
+                <div className='text-white'>
+                    <div className='flex'>
+                        <h1 className='text-white font-medium text-[30px]'>Mobile & Web Applications</h1>
+                        <div className='w-[70px] h-[60px] md:h-[70px] rounded-full rounded-tr-lg bg-[#00D285] md:ml-[30%] lg:ml-[50%] xl:ml-[60%]'>
+                        <GrChat className='mx-auto text-white my-[40%] font-3xl' size={18} />
                         </div>
                     </div>
-                    <p>We help create solutions that optimize processes, improve accessibility to data, and increase successful outcomes by providing the <br />
-                        necessary insights and tools to change physician and patient behavior.</p>
 
+                    <p className='md:pr-[15%]'>We help create solutions that optimize processes, improve accessibility to data, and increase successful outcomes by providing the
+                        necessary insights and tools to change physician and patient behavior.
+                    </p>
                 </div>
 
-                <div className='mx-32'>
-                    <div className=' w-full h-[450px]  mt-7 '><img src={Portfolio1} alt="" className=' w-[1100px] h-[400px]' /></div>
-                    <div className=' w-full h-[450px]  mt-7 '><img src={Portfolio2} alt="" className=' w-[1100px] h-[400px]' /></div>
-                    <div className=' w-full h-[450px]  mt-7 '><img src={Portfolio3} alt="" className=' w-[1100px] h-[400px]' /></div>
-                    <div className=' w-full h-[450px]  mt-7 '><img src={Portfolio4} alt="" className=' w-[1100px] h-[400px]' /></div>
-                    <div className=' w-full h-[450px]  mt-7 '><img src={Portfolio5} alt="" className=' w-[1100px] h-[400px]' /></div>
-                    <div className=' w-full h-[450px]  mt-7 '><img src={Portfolio6} alt="" className=' w-[1100px] h-[400px]' /></div>
+                <div className=''>
+                    <div className=' w-full mt-7 '><img src={PortfolioImg1} alt="" className=' w-[1100px]' /></div>
+                    <div className=' w-full mt-7 '><img src={PortfolioImg2} alt="" className=' w-[1100px] ' /></div>
+                    <div className=' w-full mt-7 '><img src={PortfolioImg3} alt="" className=' w-[1100px] ' /></div>
+                    <div className=' w-full mt-7 '><img src={PortfolioImg4} alt="" className=' w-[1100px] ' /></div>
+                    <div className=' w-full mt-7 '><img src={PortfolioImg5} alt="" className=' w-[1100px] ' /></div>
+                    <div className=' w-full mt-7 '><img src={PortfolioImg6} alt="" className=' w-[1100px] ' /></div>
                 </div>
 
             </section>
+            <Portfolio2/>
         </>
     )
 }

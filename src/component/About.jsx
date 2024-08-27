@@ -1,6 +1,7 @@
 import React from 'react'
 import First from '../../src/assets/image/about1.png'
 import About2 from './About2'
+import About3 from './About3'
 function About() {
     return (
         <>
@@ -13,8 +14,8 @@ function About() {
                                 products, and companies come to fruition
                                 quickly whilst achieving the required impact.
                                 Our work is to facilitate the process.</p>
-                                <h2 className=''>Rasheed Ogunusi</h2>
-                                <h2>CTO</h2>
+                            <h2 className=''>Rasheed Ogunusi</h2>
+                            <h2>CTO</h2>
                         </div>
                     </div>
                     <div className='py-4  md:w-[60%] w-full xl:px-32 md:px-10'>
@@ -36,9 +37,9 @@ function About() {
                     </div>
                 </div>
             </section>
-
-      <About2/>
-
+            
+            <About3 />
+            <About2 />
         </>
 
     )
