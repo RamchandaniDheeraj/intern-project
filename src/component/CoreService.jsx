@@ -60,7 +60,7 @@ function CoreService() {
 
 
                 {/*  Partnership for agencies  */}
-                <section className='w-full md:flex  block  mb-12'>
+                <section className='w-full md:flex block md:mb-12'>
                     <div className='md:w-[50%] w-full bg-[rgb(235,250,244)] '>
                         <img src={Partnership} alt="" className='md:w-[680px] h-[480px] w-full m-auto shadow-[-72px_0px_0px_42px_#000] mt-10 '  />
                     </div>

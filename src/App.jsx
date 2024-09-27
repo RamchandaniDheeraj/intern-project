@@ -16,6 +16,7 @@ import ArticleCard from './component/ArticleCard'
 import PartnershipDetails from './component/PartnershipDetails'
 import BookACall from './component/BookACall'
 import ReadMoreBtn from './component/ReadMoreBtn'
+import Contact from './component/Contact'
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
           <Route path="/blog" element={<Blog/>} />
           <Route path="/partnershipDetails" element={<PartnershipDetails/>} />
           <Route path="/BookACall" element={<BookACall/>} />
+          <Route path="/contact" element={<Contact/>} />
         </Routes>
     <Footer/>
       </Router>

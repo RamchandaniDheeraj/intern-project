@@ -8,17 +8,17 @@ import Img1 from '../assets/image/bookACall1.png'
 function BookACall() {
     return (
         <>
-            <section className='w-full md:flex bg-[#EBFAF4] pt-12 px-10'>
-                <div className='w-full md:w-[50%] md:h-[600px] bg-[url(src/assets/bgline.png)] bg-[length:100%_100%] ' >
-                    <img src={Img1} alt="" className='w-full h-[470px] ' />
+            <section className='w-full md:flex bg-[#EBFAF4] pt-12 md:px-10 px-2 '>
+                <div className='w-full md:w-[50%] bg-[url(src/assets/bgline.png)] bg-[length:100%_100%] ' >
+                    <img src={Img1} alt="" className='w-full ' />
                 </div>
 
-                <div className='w-full md:w-[50%] h-[200px] px-10'  >
-                    <div className='flex py-10 '>
-                        <div className=' w-[64px] h-[3px] bg-[#00d285] mt-10 md:mt-[65px]  '></div>
-                        <h1 className=' text-[36px] md:mt-9 font-bold mr-[120px] '>Book a call</h1>
+                <div className='w-full md:w-[50%] lg:px-10 px-2'  >
+                    <div className='flex lg:py-10 py-5 md:py-0'>
+                        <div className=' w-[64px] h-[3px] bg-[#00d285] mt-10 md:mt-[65px] '></div>
+                        <h1 className=' text-[36px] md:mt-9 font-bold lg::mr-[120px] '>Book a call</h1>
                     </div>
-                    <p className=' font-semibold text-[23px] mt-[-8px] '>
+                    <p className='font-semibold text-[23px] mt-[-8px] '>
                         Select a suitable time slot and have a face-to-face video call with
                         a project manager to discuss your needs.
                     </p>
@@ -27,7 +27,7 @@ function BookACall() {
 
 
             <section className='w-full md:flex '>
-                <div className='w-full md:w-[50%] lg:w-[35%] bg-black text-white md:h-[560px] pl-10 md:ml-10 mt-48 pb-14'>
+                <div className='w-full md:w-[50%] lg:w-[35%] bg-black text-white md:h-[560px] pl-10 lg:ml-10 mt-10 md:mt-48 pb-14'>
                     <img src={Petrong} alt="" className='pt-10' />
                     <h2 className='text-4xl font-bold mt-16'>30 Minute Meeting</h2>
                     <p className='mt-10'>Web conferencing details provided upon confirmation.</p>
@@ -35,7 +35,7 @@ function BookACall() {
                     <p className='flex mt-10'> <img src={Time} alt="" className='mr-4' />West African Time GMT</p>
                 </div>
 
-                <div className='w-full md:w-[65%] lg:w-[65%]'>
+                <div className='w-full md:w-[50%] lg:w-[65%]'>
                     <div className='w-[80px] h-[80px] rounded-full rounded-tr-lg bg-[#00D285] relative mt-10 lg:ml-[85%] ml-[70%]'>
                         <Link to={"chat"}>
                             <GrChat className='mx-auto text-white text-xl absolute top-8 left-7' />

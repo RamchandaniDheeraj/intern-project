@@ -11,7 +11,7 @@ function Home() {
 
             <section className='xl:mb-40 md:mb-16 mb-36 '>
                 <div className='w-full mx-auto md:flex '>
-                    <div className='md:w-[70%] xl:w-[80%] pl-5 md:pl-0 lg:pl-10 w-full pb-[150px] pt-16 bg-black text-white'>
+                    <div className='md:w-[70%] xl:w-[80%] pl-5 md:pl-0 lg:pl-10 w-full pb-[150px] pt-5 md:pt-16 bg-black text-white'>
                         <h1 className='md:text-4xl lg:text-5xl text-3xl font-bold md:ml-[40px]'>Get the next<br />
                             level developments. </h1>
 
@@ -20,12 +20,12 @@ function Home() {
                             challenges, and opportunities in the web development, we <br />
                             have focused our attention on these core areas:</h5>
 
-                        <button className=' w-[200px] h-[55px] bg-[#00D285] ml-10 mt-8 md:ml-20 rounded-[100px] '>Get the qute</button>
+                        <button className=' w-[200px] h-[55px] bg-[#00D285] ml-[20%                                                     ] mt-8 md:ml-20 rounded-[100px] '>Get the qute</button>
                         <Link to={"BookACall"}>
-                            <button className=' w-[200px] h-[55px] bg-white ml-10 xl:ml-20 md:ml-20 lg:ml-7 mt-8 text-black rounded-[100px] font-semibold '>schedule a call </button>
+                            <button className=' w-[200px] h-[55px] bg-white ml-[20%] xl:ml-20 md:ml-20 lg:ml-7 mt-8 text-black rounded-[100px] font-semibold '>schedule a call </button>
                         </Link>
                     </div>
-                    <div className='md:w-[30%] xl:w-[20%] pt-1 md:pt-16 w-full h-[380px] reletive  ' >
+                    <div className='md:w-[30%] xl:w-[20%] md:pt-16 w-full h-[380px] reletive  ' >
                         <img src={Img} alt="" className='w-full md:px-0 lg:w-[34%] md:w-[40%] h-[490px] absolute md:right-4 lg:right-16 md:shadow-[-70px_120px_0px_-50px_#00D285] lg:shadow-[-100px_120px_0px_-50px_#00D285]' />
                         <div className='w-[100%] h-[490px] bg-[#00D285] absolute top-[0px] z-[-1] right-0 '></div>
                     </div>

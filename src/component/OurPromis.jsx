@@ -15,7 +15,7 @@ function OurPromis() {
 
                     <div className='flex flex-wrap mt-4'>
                     
-                        <div className='lg:w-[357px] md:w-[260px] w-full h-[250px] md:mx-10 mx-0 flex mb-7 '>
+                        <div className='lg:w-[357px] md:w-[260px] w-full h-[250px] md:mx-10 mx-0 flex md:mb-7 '>
                             <div className='mt-4'>
                                 <img src={Topcode} alt="" />
                             </div>
@@ -30,7 +30,7 @@ function OurPromis() {
                             </div>
                         </div>
 
-                        <div className='lg:w-[357px] md:w-[260px] w-full h-[250px]  md:mx-14 mx-0 flex mb-7'>
+                        <div className='lg:w-[357px] md:w-[260px] w-full h-[250px] md:mx-14 mx-0 flex mb-7'>
                             <div className='mt-4'>
                                 <img src={Responsive} alt="" />
                             </div>
@@ -45,7 +45,7 @@ function OurPromis() {
                             </div>
                         </div>
 
-                        <div className='lg:w-[357px] md:w-[260px]  md:mx-14 mx-0  flex mb-7'>
+                        <div className='lg:w-[357px] md:w-[260px]  md:mx-14 mx-0  flex md:mb-7'>
                             <div className='mt-4'>
                                 <img src={Rockstar} alt="" />
                             </div>
@@ -60,7 +60,7 @@ function OurPromis() {
                             </div>
                         </div>
 
-                        <div className='lg:w-[357px] md:w-[260px] md:mx-10 mx-0 flex mb-7'>
+                        <div className='lg:w-[357px] md:w-[260px] md:mx-10 mx-0 flex md:mb-7'>
                             <div className='mt-4'>
                                 <img src={Turn} alt="" />
                             </div>
@@ -75,7 +75,7 @@ function OurPromis() {
                             </div>
                         </div>
 
-                        <div className='lg:w-[357px] md:w-[260px] md:mx-10 mx-0 flex mb-7'>
+                        <div className='lg:w-[357px] md:w-[260px] md:mx-10 mx-0 flex md:mb-7'>
                             <div className='mt-4'>
                                 <img src={Support} alt="" />
                             </div>
@@ -90,7 +90,7 @@ function OurPromis() {
                             </div>
                         </div>
 
-                        <div className='lg:w-[357px] md:w-[260px] md:mx-14 mx-0  flex mb-7'>
+                        <div className='lg:w-[357px] md:w-[260px] md:mx-14 mx-0  flex md:mb-7'>
                             <div className='mt-4'>
                                 <img src={Secured} alt="" />
                             </div>
